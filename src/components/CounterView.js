@@ -7,7 +7,9 @@ const CounterView = () => {
   console.log(countReducer);
   return (
     <View style={{ padding: 20, alignSelf: "center" }}>
-      <Text style={{ fontSize: 30, color: "red" }}>{countReducer.count}</Text>
+      <Text style={{ fontSize: 30, color: "red" }}>
+        Count {countReducer.count}
+      </Text>
     </View>
   );
 };
