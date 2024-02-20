@@ -3,6 +3,14 @@
     "version": ">= 7.3.0"
   },
   "build": {
+    "base": {
+      "android": {
+        "image": "default",
+        "env": {
+          "PLATFORM": "android"
+        }
+      }
+    },
     "development": {
       "developmentClient": true,
       "distribution": "internal",
